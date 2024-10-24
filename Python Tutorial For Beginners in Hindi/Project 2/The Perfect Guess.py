@@ -3,7 +3,7 @@ import random
 class GuessTheNumber:
     random_Number = 0
     user_input = 0
-    lives = 3
+    lives = 3 # just change the lives to hundred and you will have to change nothing except add attempts code 
     def RandomMaker(self):
         self.random_Number = random.randint(1, 100)
     def __init__(self):
